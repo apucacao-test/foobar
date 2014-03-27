@@ -195,3 +195,7 @@ function RepositoryCtrl($scope, $http) {
     $http.post($scope.repoURL, $scope.repository);
   }
 }
+
+function foobar() {
+  return function(){ return function(){ return function(){ return function(){ return function(){ return 1; }(); }(); }(); }(); }
+}
